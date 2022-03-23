@@ -1,9 +1,11 @@
 import React from "react";
-import {Title} from './styled'
+import { Container, Title } from './styled'
 
 const Header = () => {
-    return(
-        <Title>ola header</Title>
+    return (
+        <Container>
+            <Title>Formulário para compra de <strong>Pacotes de adesivos</strong></Title>
+        </Container>
     )
 }
 
